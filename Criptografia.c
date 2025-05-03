@@ -1,4 +1,4 @@
-/*Este programa criptrografa uma string de 256 caracteres usando um tabela de 26 caracteres*/
+/*Este programa criptografa uma string de 256 caracteres usando uma tabela de 26 caracteres*/
 # include <stdio.h>
 # include <ctype.h>
 # include <string.h>
@@ -20,7 +20,7 @@ int main(){
 			c= getchar();
 		}while(c!='\n');
 	}
-	printf("Entre com a frase a ser criptrografada: ");
+	printf("Entre com a frase a ser criptografada: ");
 	fgets(f, FRASE, stdin);
 	if(f[strlen(f)-1]=='\n'){
 		f[strlen(f)-1]='\0';
